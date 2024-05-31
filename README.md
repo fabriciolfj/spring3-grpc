@@ -27,4 +27,4 @@ $ ./mvnw -Pnative native:compile
 $ ./target/server
 ```
 
-The patches needed to make it work in native were a reflection hint (upstream change: https://github.com/oracle/graalvm-reachability-metadata/pull/148) and some autoconfig metadata (upstream change: https://github.com/yidongnan/grpc-spring-boot-starter/pull/775).
+The patches needed to make it work in native were a reflection hint (upstream change: https://github.com/oracle/graalvm-reachability-metadata/pull/148) and some autoconfig metadata (upstream change: https://github.com/yidongnan/grpc-spring-boot-starter/pull/775).  
